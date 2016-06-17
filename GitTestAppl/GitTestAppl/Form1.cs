@@ -19,7 +19,7 @@ namespace GitTestAppl
 
         private void btnMessageBox_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Hello world!");
         }
     }
 }
