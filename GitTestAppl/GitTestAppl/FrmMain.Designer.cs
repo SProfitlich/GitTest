@@ -35,7 +35,7 @@
             // btnMessageBox
             // 
             this.btnMessageBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMessageBox.Location = new System.Drawing.Point(126, 116);
+            this.btnMessageBox.Location = new System.Drawing.Point(12, 12);
             this.btnMessageBox.Name = "btnMessageBox";
             this.btnMessageBox.Size = new System.Drawing.Size(102, 47);
             this.btnMessageBox.TabIndex = 0;
@@ -46,9 +46,9 @@
             // btnAbout
             // 
             this.btnAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAbout.Location = new System.Drawing.Point(126, 61);
+            this.btnAbout.Location = new System.Drawing.Point(120, 12);
             this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(102, 40);
+            this.btnAbout.Size = new System.Drawing.Size(102, 47);
             this.btnAbout.TabIndex = 1;
             this.btnAbout.Text = "About";
             this.btnAbout.UseVisualStyleBackColor = true;
@@ -58,7 +58,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(353, 296);
+            this.ClientSize = new System.Drawing.Size(243, 70);
             this.Controls.Add(this.btnAbout);
             this.Controls.Add(this.btnMessageBox);
             this.Name = "FrmMain";
