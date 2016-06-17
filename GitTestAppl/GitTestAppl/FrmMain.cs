@@ -21,5 +21,11 @@ namespace GitTestAppl
         {
             MessageBox.Show("Hello world!");
         }
+
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            FrmAbout frmAbout = new FrmAbout();
+            frmAbout.Show();
+        }
     }
 }

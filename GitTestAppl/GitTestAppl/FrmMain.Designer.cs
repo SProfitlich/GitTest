@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnMessageBox = new System.Windows.Forms.Button();
+            this.btnAbout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnMessageBox
@@ -42,11 +43,23 @@
             this.btnMessageBox.UseVisualStyleBackColor = true;
             this.btnMessageBox.Click += new System.EventHandler(this.btnMessageBox_Click);
             // 
+            // btnAbout
+            // 
+            this.btnAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbout.Location = new System.Drawing.Point(126, 61);
+            this.btnAbout.Name = "btnAbout";
+            this.btnAbout.Size = new System.Drawing.Size(102, 40);
+            this.btnAbout.TabIndex = 1;
+            this.btnAbout.Text = "About";
+            this.btnAbout.UseVisualStyleBackColor = true;
+            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(353, 296);
+            this.Controls.Add(this.btnAbout);
             this.Controls.Add(this.btnMessageBox);
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -58,6 +71,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnMessageBox;
+        private System.Windows.Forms.Button btnAbout;
     }
 }
 
